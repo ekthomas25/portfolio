@@ -152,3 +152,27 @@ body  {
   font-family: monospace;
 }
 
+.likes-box  {
+  border: 2px solid rgb(0, 195, 255);
+  padding: 20px;
+  background-color: rgb(255, 0, 242);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.skills-box {
+  border: 3px solid rgb(55, 58, 255);
+  padding: 15px;
+  background-color:rgb(153, 0, 255);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  box-sizing: content-box;
+  font-family: monospace;
+}
