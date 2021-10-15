@@ -175,4 +175,33 @@ body  {
   width: 75%;
   box-sizing: content-box;
   font-family: monospace;
+  color: lightskyblue;
+}
+
+.interests-box {
+  border: 3px solid rgb(55, 58, 255);
+  padding: 15px;
+  background-color:rgb(0, 162, 255);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  box-sizing: content-box;
+  font-family: monospace;
+  color: rgb(110, 20, 255);
+}
+
+.hobbies-box {
+  border: 3px solid rgb(55, 58, 255);
+  padding: 15px;
+  background-color:rgb(255, 107, 156);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  box-sizing: content-box;
+  font-family: monospace;
+  color: rgb(35, 49, 255);
 }
