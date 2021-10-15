@@ -31,7 +31,19 @@ h4  {
   font-size: 45px;
   color: rgb(91, 43, 224);
 }
-  
+
+h5  {
+  font-family: monospace;
+  font-size: 20px;
+  color: antiquewhite;
+  font-weight: 100;
+  text-align: center;
+}
+
+h6  {
+  font-family: monospace;
+  font-size: 14px;
+}
 body  {
   background-color: black;
   line-height: 20px;
@@ -43,6 +55,36 @@ body  {
   width: 50%;
   height: auto;
   display: block;
+}
+
+.column-1  {
+  text-align: justify;
+  width: 33.33%;
+  height: 450px;
+  float: left;
+  column-rule: 4px double cyan;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 4px cornflowerblue;
+  background-color: rgb(159, 79, 233);
+  box-sizing: border-box;
+  color: rgb(242, 255, 193);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column-2  {
+  width: 33.33%;
+  float: left;
+  column-rule: 4px double cyan;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px cornflowerblue;
+  background-color: rgb(159, 79, 233);
+  box-sizing: border-box;width: 33.33%;
+  float: left;
+  border: 2px blue;
+  background-color: rgb(159, 79, 233);
 }
 
 .about-box  {
