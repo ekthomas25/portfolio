@@ -98,7 +98,7 @@ body  {
 }
 
 .about-box  {
-  border: 1px blue;
+  border: 1px solid blue;
   padding: 20px;
   background-color:cornflowerblue;
   display: block;
@@ -109,12 +109,43 @@ body  {
   box-sizing: border-box;
 }
 .experience-box  {
-  border: 1px blue;
+  border: 2px solid rgb(255, 0, 242);
   padding: 20px;
   background-color:rgb(56, 114, 238);
   display: block;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 30px;
-  width: 75%;
+  width: 70%;
   box-sizing: border-box;
+}
+
+.experience-h-box {
+  border: 1px solid rgb(255, 0, 221);
+  padding: 10px;
+  background-color:rgb(56, 114, 238);
+  display:inline-block;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 70%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  font-style: oblique;
+  color: rgb(255, 145, 237);
+}
+
+.work-box {
+  border: 5px solid rgb(255, 0, 242);
+  padding: 15px;
+  background-color:rgb(234, 180, 255);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  box-sizing: content-box;
+  font-family: monospace;
+}
