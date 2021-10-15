@@ -74,17 +74,27 @@ body  {
 }
 
 .column-2  {
+  text-align: justify;
   width: 33.33%;
+  height: 450px;
   float: left;
   column-rule: 4px double cyan;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 15px;
   border: 4px cornflowerblue;
-  background-color: rgb(159, 79, 233);
-  box-sizing: border-box;width: 33.33%;
+  background-color: rgb(133, 79, 233);
+  box-sizing: border-box;
+  color: rgb(242, 255, 193);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.space  {
+  width: 100%;
+  height: 70px;
   float: left;
-  border: 2px blue;
-  background-color: rgb(159, 79, 233);
+  color: black;
+  text-align: center;
 }
 
 .about-box  {
