@@ -108,3 +108,13 @@ body  {
   width: 75%;
   box-sizing: border-box;
 }
+.experience-box  {
+  border: 1px blue;
+  padding: 20px;
+  background-color:rgb(56, 114, 238);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 75%;
+  box-sizing: border-box;
